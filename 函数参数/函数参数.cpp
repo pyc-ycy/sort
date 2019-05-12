@@ -16,6 +16,7 @@ void sort(int a[], int n, int(*cmp)(int, int))
 
 int CmpAsc(int x, int y)
 {
+	//ÉıĞòÅÅĞò
 	if (x > y)
 		return 1;
 	else return 0;
@@ -23,6 +24,7 @@ int CmpAsc(int x, int y)
 
 int CmpDec(int x, int y)
 {
+	//½µĞòÅÅĞò
 	if (x < y)
 		return 1;
 	else
@@ -31,6 +33,7 @@ int CmpDec(int x, int y)
 
 int CmpAbsAsc(int x, int y)
 {
+	//È¡¾ø¶ÔÖµÉıĞòÅÅĞò
 	if (abs(x) > abs(y))
 		return 1;
 	else return 0;
